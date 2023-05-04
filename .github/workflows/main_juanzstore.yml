@@ -23,10 +23,10 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build "BulkyBookWeb.csproj" --configuration Release
+        run: dotnet build "BulkyBookWeb/BulkyBookWeb.csproj" --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish "BulkyBookWeb.csproj" -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish "BulkyBookWeb/BulkyBookWeb.csproj" -c Release -o ${{env.DOTNET_ROOT}}/myapp
         
       - name: dev-certs clean
         run: dotnet dev-certs https --clean
