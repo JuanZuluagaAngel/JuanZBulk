@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{D9C13C5C-E0A2-4097-959D-D192AD462570}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BulkyBookWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/j.zuluaga/Projects/11-web/Bulky/BulkyBookWeb/Areas/Identity/Pages/Account/Login.cshtml.cs" relfile="BulkyBookWeb/Areas/Identity/Pages/Account/Login.cshtml.cs" line="23" column="1" />
+      <Breakpoint file="/Users/j.zuluaga/Projects/11-web/Bulky/BulkyBook.Models/OrderDetail.cs" relfile="BulkyBook.Models/OrderDetail.cs" line="12" column="1" />
+      <Breakpoint file="/Users/j.zuluaga/Projects/11-web/Bulky/BulkyBook.Models/ShoppingCart.cs" relfile="BulkyBook.Models/ShoppingCart.cs" line="12" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BulkyBookWeb/Program.cs">
+    <Files>
+      <File FileName="BulkyBookWeb/Program.cs" Line="68" Column="1" />
+      <File FileName="BulkyBookWeb/appsettings.json" />
+      <File FileName="BulkyBookWeb/appsettings.Development.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BulkyBook" expanded="True" selected="True">
+            <Node name="BulkyBook.Utility" expanded="True" />
+            <Node name="BulkyBookWeb" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Areas" expanded="True">
+                <Node name="Customer" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
