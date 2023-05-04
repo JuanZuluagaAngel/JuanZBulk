@@ -65,10 +65,10 @@ else
 /*
 if (builder.Environment.IsProduction())
 {*/
-    builder.Configuration.AddAzureKeyVault(
-        new Uri($"https://{builder.Configuration["KeyVaultName"]}.vault.azure.net/"),
-        new DefaultAzureCredential());
-        //new DefaultAzureCredential(new DefaultAzureCredentialOptions { ExcludeEnvironmentCredential = true }));
+ //   builder.Configuration.AddAzureKeyVault(
+ //       new Uri($"https://{builder.Configuration["KeyVaultName"]}.vault.azure.net/"),
+ //       new DefaultAzureCredential());
+ //       //new DefaultAzureCredential(new DefaultAzureCredentialOptions { ExcludeEnvironmentCredential = true }));
 //}
 
 
