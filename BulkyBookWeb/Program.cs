@@ -71,7 +71,6 @@ if (builder.Environment.IsProduction())
  //       //new DefaultAzureCredential(new DefaultAzureCredentialOptions { ExcludeEnvironmentCredential = true }));
 //}
 
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
