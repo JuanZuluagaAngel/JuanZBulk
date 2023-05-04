@@ -28,10 +28,10 @@ jobs:
       - name: dotnet publish
         run: dotnet publish "BulkyBookWeb/BulkyBookWeb.csproj" -c Release -o ${{env.DOTNET_ROOT}}/myapp
         
-      - name: dev-certs clean
+      #- name: dev-certs clean
       #  run: dotnet dev-certs https --clean
 
-      - name: dev-certs clean https
+      #- name: dev-certs clean https
       #  run: dotnet dev-certs https -t
 
       - name: Upload artifact for deployment job
